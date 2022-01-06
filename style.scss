@@ -91,11 +91,13 @@ button{
 }
 
 button.big{
-  height: 56px;
+  min-height: 56px;
+  max-height: 80px;
   padding: 0 16px;
 }
 button.small{
-  height: 40px;
+  min-height: 40px;
+  max-height: 56px;
   padding: 0 12px;
   font-size:14px;
 }
