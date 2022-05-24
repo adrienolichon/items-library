@@ -13,6 +13,7 @@
   --grey-placeholder:173, 181, 189;
   --dark-grey:111, 116, 116;
   --dark-grey-click:200, 202, 202;
+  --black: 33, 37, 41;
   --light-white:247,248,248;
 }
 
@@ -123,7 +124,7 @@ button.primary:active {
 button.cancel {
   background-color: rgb(var(--grey));
   border: 0px solid transparent;
-  color: rgb(var(--dark-grey));
+  color: rgb(var(--black));
 }
 @media (hover: hover) {
   button.cancel:hover {
